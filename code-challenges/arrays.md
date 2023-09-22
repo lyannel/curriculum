@@ -139,6 +139,7 @@ Given an array of ints, return the number of 9's in the array.
 
 Sample Solution:
 ```
+// Javascript
 function array_count9(array) {
 
 	return array.filter((num) => num === 9).length;
